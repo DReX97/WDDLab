@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- index.html-->
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Bank</title>
+	</head>
+	<body>
+		<h1>Bank Form Application</h1>
+		<form>
+			<h3>Cilent's Name</h3>
+				<label>First Name:*</label><br>
+				<input type="text" placeholder="enter your name here" required minlength="3" maxlength="20" size="15"/>
+				<br>
+
+				<label>Sur Name:*</label><br>
+				<input type="text" placeholder="enter your name here" required minlength="3" maxlength="20" size="15"/>
+				<br>
+				
+				<label>Email Address:*</label><br>
+				<input type="email" placeholder="enter your email here" required minlength="5" maxlength="30" size="15"/>
+				
+				<input type="submit" value="Apply"/>
+				<p>*required*</p>
+				
+			<h3>Choose your bank type</h3>
+				<label>Credit</label>
+				<input name="topping" type="radio"/>
+				
+				<label>Debit</label>
+				<input name="topping" type="radio"/>
+				
+				<label>Master</label>
+				<input name="topping" type="radio"/>
+				
+				<h3>Feedback</h3>
+				<label>Good pizza</label>
+				<input type="checkbox"/><br>
+				
+				<label>Good Price</label>
+				<input type="checkbox"/>
+				
+				<br><br>
+				
+				<label>I like....</label>
+				<select multiple>
+					<option>Cats</option>
+					<option>Dogs</option>
+					<option>Bunny</option>
+					<option>Snakes</option>
+					<option>Lions</option>
+				</select>
+				
+				
+			<br><br>
+			<input type="submit" value="Click me">
+			<input type="reset" value="Reset form">
+		</form>
+		
+	</body>
+</html>
